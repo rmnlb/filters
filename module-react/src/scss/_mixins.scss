@@ -1,0 +1,6 @@
+@mixin fieldContainer($width) {
+  flex-basis: $width;
+  height: available;
+  overflow-y: scroll;
+  border: 2px solid grey;
+}

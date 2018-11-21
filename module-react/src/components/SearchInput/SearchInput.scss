@@ -1,0 +1,12 @@
+.Search__input {
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  top: 5px;
+  left: 27px;
+  z-index: -1;
+
+  //  width: inherit;
+    padding: 5px 10px 5px 20px;
+    border-radius: 12px;
+  }

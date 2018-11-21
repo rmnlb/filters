@@ -1,0 +1,63 @@
+[
+  {
+    "name" : "SDK1",
+    "tags" : [
+      "tag1",
+      "tag3"
+    ]
+  },
+  {
+    "name" : "SDK2",
+    "tags" : [
+      "tag4"
+    ]
+  },
+  {
+    "name" : "SDK3",
+    "tags" : [
+      "tag1",
+      "tag3",
+      "tag5"
+    ]
+  },
+  {
+    "name" : "SDK4",
+    "tags" : [
+      "tag2"
+    ]
+  },
+  {
+    "name" : "SDK5",
+    "tags" : [
+      "tag3"
+    ]
+  },
+  {
+    "name" : "SDK6",
+    "tags" : [
+      "tag2",
+      "tag4"
+    ]
+  },
+  {
+    "name" : "SDK7",
+    "tags" : [
+      "tag1",
+      "tag3"
+    ]
+  },
+  {
+    "name" : "SDK8",
+    "tags" : [
+      "tag1",
+      "tag2"
+    ]
+  },
+  {
+    "name" : "SDK9",
+    "tags" : [
+      "tag1",
+      "tag5"
+    ]
+  }
+]

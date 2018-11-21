@@ -1,0 +1,10 @@
+@import "../../scss/mixins";
+
+.Content {
+  @include fieldContainer(67%);
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

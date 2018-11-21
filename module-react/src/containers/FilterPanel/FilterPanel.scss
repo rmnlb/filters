@@ -1,0 +1,7 @@
+@import "../../scss/mixins";
+
+.FilterPanel {
+  @include fieldContainer(33%);
+  position: relative;
+  overflow-y: scroll;
+}
