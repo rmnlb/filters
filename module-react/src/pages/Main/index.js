@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-//import fetchJSON from '../../api/fetchJSON';
-import './Main.scss'
-import data from '../../api/JSON/incomeData'
-import FilterPanel from '../../containers/FilterPanel'
-import Content from '../../containers/Content'
-import uniqueTags from '../../utils/uniqueTags'
+import fetchJSON from '../../api/fetchJSON';
+import './Main.scss';
+import FilterPanel from '../../containers/FilterPanel';
+import Content from '../../containers/Content';
+import uniqueTags from '../../utils/uniqueTags';
 
 class Main extends Component {
     state = {
@@ -14,10 +13,13 @@ class Main extends Component {
     };
 
     componentDidMount() {
-        this.setState({
-            sdks: data,
-            tags: uniqueTags(data)
-        })
+        fetchJSON('./JSON/incomeData.json')
+            .then(res => {
+                this.setState({
+                    sdks: res,
+                    tags: uniqueTags(res)
+                });
+            })
     }
 
     setFilter = (filter) => {

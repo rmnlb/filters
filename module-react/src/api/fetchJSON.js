@@ -3,9 +3,5 @@ export default function (url) {
         type: 'GET',
         contentType: 'JSON'
     })
-        .then(res => {
-            console.log(res.text());
-            res.text()
-
-        })
+        .then(res => res.json())
 }
