@@ -9,7 +9,8 @@ chosen on filter panel (left field).
 - Any chosen pre established filter displays elements that contains filter value
 
 - Search filter displays elements, by comparing input value
-to elements names.
+to elements names. Also, it will work for tags if write full tag name 
+into the input field.
 
 - By default app shows all elements and makes 'All' filter checked
 
